@@ -4,8 +4,7 @@ const express = require('express');
 const app = express();
 
 
-const message = process.env.MESSAGE || 'Hello, World!';
-
+const message = process.env.MESSAGE;
 app.get('/', (req, res) => {
     res.send(`<h1>${message}</h1>`);
 });
