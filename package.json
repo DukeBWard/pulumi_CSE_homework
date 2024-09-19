@@ -1,12 +1,18 @@
 {
-  "name": "docker_web_app",
-  "version": "1.0.0",
-  "description": "Node.js on Docker",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "latest"
-  }
+    "name": "pulumi_cse_homework",
+    "main": "index.js",
+    "dependencies": {
+        "@pulumi/azure-native": "^2.62.0",
+        "@pulumi/docker": "^4.5.5",
+        "@pulumi/pulumi": "^3.0.0"
+    },
+    "version": "1.0.0",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
 }

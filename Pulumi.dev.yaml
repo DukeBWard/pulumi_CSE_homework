@@ -1,0 +1,3 @@
+config:
+  azure-native:location: EastUS2
+  pulumi_CSE_homework:customMessage: test

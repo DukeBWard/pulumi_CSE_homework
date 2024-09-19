@@ -1,0 +1,11 @@
+name: pulumi_CSE_homework
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+    typescript: false
+description: A minimal JavaScript Pulumi program with the native Azure provider
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: azure-javascript
