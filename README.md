@@ -1,3 +1,7 @@
+Cloud Support Coding Exercise
+
+**OPTION 1**
+
 Local deployment:
 `docker build -t myapp .`
 `docker run -p 80:80 myapp`
